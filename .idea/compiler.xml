@@ -7,9 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="basic" />
         <module name="im-server" />
         <module name="im-config" />
+        <module name="basic" />
+        <module name="im-route" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="11" />

@@ -6,13 +6,23 @@ spring:
 server:
   port: 8081
 
+# zk
+zk:
+  zkAddr: 114.55.75.86:2181
+  zkRoot: /route
+  zkSwitch: true
+  connect:
+    timeout: 15000
 
 
 
 # 服务器端口
 im-server:
-  port: 11211
+  port: 10000
+  heartbeat:
+    time: 30
 
-
+# 路由
+routeUrl: http://localhost:8083/
 
 
