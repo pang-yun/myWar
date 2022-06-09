@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: im-server
+
+ # web port
+server:
+  port: 8081
+
+
+
+
+# 服务器端口
+im-server:
+  port: 11211
+
+
+
+

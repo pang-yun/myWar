@@ -1,0 +1,13 @@
+syntax = "proto3";
+package req;
+
+option java_package = "com.message.proto";
+option java_outer_classname = "RequestProto";
+
+
+message Req {
+  int64 requestId = 1;
+  int32 type = 2;
+  string reqMsg = 3;
+}
+
